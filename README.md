@@ -23,4 +23,9 @@ source .venv/bin/activate # macOS/Linux
 ```bash
 pip install -r requirements.txt
 ```
+4. Para salir del entorno virtual es
+
+```bash
+deactivate
+```
 
