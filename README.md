@@ -7,25 +7,26 @@ Todavia me falta hacer que este proyecto de tetris este con uv para que las pers
 ```bash
  pip install pygame
  ```
+o
 
-Si no quieres instalarlo en tu equipo haz esto en tu terminal
-
-1. Crea el espacio virtual
+1. Crea el entorno (si no lo has hecho ya):
 ```bash
 python -m venv .venv
 ```
-2. Activa el `.venv`
+
+2. Usa el código con precaución.
+Actívalo:
 ```bash
-.venv\Scripts\activate   # Windows
-source .venv/bin/activate # macOS/Linux
+Windows: .venv\Scripts\activate
+Mac/Linux: source .venv/bin/activate
 ```
-3. Instala los paquetes desde `requirements.txt`
+
+3. Instala tus dependencias:
+Usa el comando oficial de la documentación de pip para cargar todo automáticamente:
 ```bash
 pip install -r requirements.txt
 ```
-4. Para salir del entorno virtual es
 
-```bash
-deactivate
-```
-
+4. Usa el código con precaución.
+Vincula VS Code:
+Presiona Ctrl+Shift+P -> Python: Select Interpreter -> Selecciona el que está dentro de .venv. Esto eliminará el error de Pylance que mencionaste antes.
